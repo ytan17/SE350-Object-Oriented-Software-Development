@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="private" author="true" classpath="C:\Users\ki451\.p2\pool\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Users\ki451\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="hw1" source="1.8" sourcepath="src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>
