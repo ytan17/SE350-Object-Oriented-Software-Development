@@ -1,0 +1,10 @@
+Instructions
+ 
+1. \code\src\hw-01 in publish.
+2. Generate javadocs to see requirements [You may find it useful to create a fresh project and copy all the files]
+3. Finish all TODOs in all files.
+4. Submit in one of two ways:
+     in your IDE (eg. Eclipse), export the project and submit the zip file (this should unzip to a directory with  some files (build.xml etc), and a subdirectory src)
+5. Your submission also needs to include:
+a.  a snapshot showing that your program is  working
+b. a README file that states what is working and what is not working

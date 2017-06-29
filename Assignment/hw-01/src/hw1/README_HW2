@@ -1,0 +1,15 @@
+hw1
+
+VideoObjTEST (all Passed)
+
+RecordTEST (all Passed)
+	
+InventorySetTEST (all passed)
+
+AssertExp1Test (all passed)
+	-testMinPosition
+	-testNumUnique
+	-testRemoveDuplicates
+
+Filled out all invriannts, pre and post conditions using "assert",
+and all "assert" passed.

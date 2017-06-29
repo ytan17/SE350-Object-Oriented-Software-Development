@@ -1,0 +1,25 @@
+Instructions
+ 
+Deliverables.
+
+a. Code files
+b. Snapshots showing tests passing or not (against MY TESTS).  see attached tests.zip
+c. What doesnt work
+
+Much has changed from hw-01.
+There are three packages:
+myhw2.data holds the inventory (Public javadoc) (Private javadoc)
+myhw2.command holds the command interface -- more here next week. (Public javadoc) (Private javadoc)
+myhw2.main holds the integration test -- more here next week.
+There are interfaces for Video, Inventory and Record.
+The inventory object classes are all package-private.
+The static factory Data provides access to inventory objects.
+The inventory interface has changed substantially:
+toCollection has been replaced with two iterator methods: one is an unsorted iterator, the other uses the strategy pattern to return a sorted iterator.
+The mutator methods of the inventory are all package-private.
+To modify the inventory from outside the package, one must invoke the run method, passing in a Command object. See the example in file:myhw2/main/TEST1.java [source] [doc-public] [doc-private].
+RecordObj is a nested class, emphasizing its dependence on InventorySet.
+Since record objects are protected behind the public interface Record, it is no longer necessary to copy them -- they canot be modified outside the myhw2.data package.
+Complete the incomplete classes (you may wish to paste in some of your hw-01 solution).
+Modify your unit tests so that they pass. (There is no longer any need to test Record).
+Write the integration test myhw2.main.TEST1.

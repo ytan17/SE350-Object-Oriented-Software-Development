@@ -1,0 +1,23 @@
+Instructions
+ 
+1.  Read 
+
+How to Think About Algorithms - Iterative
+PowerPoint Presentation Actions for 'How to Think About Algorithms - Iterative'
+1a. FIll out all invriannts, pre and post conditions using "assert".
+
+Use values 17, 37 for hash Code.  eg. hash of video looks like:
+public int hashCode() {
+int result = 17;
+result = 37*result + _title.hashCode();
+result = 37*result + _year;
+result = 37*result + _director.hashCode();
+return result;
+}
+
+
+preconditions: at beginning of every method
+postconditionsL: at end of every method
+invariants: for every loop
+
+1b.  Pull out the given tests into separate JUnit tests
